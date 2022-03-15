@@ -228,7 +228,7 @@ nav .search svg {
 /*! visi dan misi  */
 
 .main2 {
-  margin-top: -9rem;
+  margin-top: -140px;
 }
 
 .main2 svg {
@@ -415,13 +415,15 @@ nav .search svg {
 
 .kejuruan-card:hover .kejuruan-text{
   display: none;
-  transition: .3s;
 }
 
 .kejuruan-card:hover .kejuruan-hover{
-  display: flex;
   background-color:rgba(31, 145, 180, 0.75);
-  transition: .3s;
+  height: 300px;
+}
+
+.kejuruan-card:hover .coba1{
+  height: 0;
 }
 
 .kejuruan-card img{
@@ -442,18 +444,27 @@ nav .search svg {
   border-radius: 7px;
   font-size: 22px;
   cursor: default;
+  position: absolute;
+  transition: .3s;
 }
 .kejuruan-hover{
-  display: none;
+  display: flex;
+  height: 0;
+  overflow: hidden;
   color: white;
   background-color:#79DDFC33;
   width: 500px;
-  height: 300px;
   border-radius: 7px;
   font-size: 18px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  transition: .3s;
+}
+
+.coba1{
+  height: 300px;
+  width: 500px;
   transition: .3s;
 }
 
