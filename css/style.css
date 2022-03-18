@@ -684,6 +684,7 @@ nav .search svg {
   border-radius: 50%;
   box-sizing: border-box;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .div3 button:nth-child(1) {

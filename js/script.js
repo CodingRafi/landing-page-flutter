@@ -9,7 +9,7 @@ const containermain5 = document.querySelector('.container-main5');
 const bagInti = document.querySelector('.bag-inti');
 
 buttonKiri.addEventListener('click', function(){
-    main3Content.scrollLeft -= 250;
+    main3Content.scrollLeft -= 500;
 })
 
 buttonKanan.addEventListener('click', function(){
